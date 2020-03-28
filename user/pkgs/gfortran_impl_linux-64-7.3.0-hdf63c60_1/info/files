@@ -1,0 +1,17 @@
+bin/x86_64-conda_cos6-linux-gnu-f95
+bin/x86_64-conda_cos6-linux-gnu-gfortran
+bin/x86_64-conda_cos6-linux-gnu-gfortran.bin
+lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/finclude/ieee_arithmetic.mod
+lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/finclude/ieee_exceptions.mod
+lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/finclude/ieee_features.mod
+lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/finclude/omp_lib.f90
+lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/finclude/omp_lib.h
+lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/finclude/omp_lib.mod
+lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/finclude/omp_lib_kinds.mod
+lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/finclude/openacc.f90
+lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/finclude/openacc.mod
+lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/finclude/openacc_kinds.mod
+lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/finclude/openacc_lib.h
+libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/f951
+share/licenses/gcc-fortran/RUNTIME.LIBRARY.EXCEPTION
+x86_64-conda_cos6-linux-gnu/sysroot/lib/libgfortran.spec

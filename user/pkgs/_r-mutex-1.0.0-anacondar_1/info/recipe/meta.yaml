@@ -1,0 +1,20 @@
+# This file created by conda-build 3.0.15+464.g1abbe0d
+# meta.yaml template originally from:
+# /home/rdonnelly/conda/aggregateR/_r-mutex-feedstock/recipe, last modified Wed Feb  7 11:41:05 2018
+# ------------------------------------------------
+
+package:
+    name: _r-mutex
+    version: 1.0.0
+build:
+    number: '1'
+    string: anacondar_1
+    track_features:
+        - anacondar
+about:
+    license: BSD
+    summary: A mutex package to ensure environment exclusivity between Anaconda R
+        and MRO.
+extra:
+    copy_test_source_files: true
+    final: true

@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "hdf63c60_1",
+  "build_number": 1,
+  "channel": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "gcc_impl_linux-64 7.3.0 habb00fd_1",
+    "libgcc-ng >=7.3.0",
+    "libgfortran-ng >=7.3.0,<8.0a0"
+  ],
+  "features": "",
+  "fn": "gfortran_impl_linux-64-7.3.0-hdf63c60_1.conda",
+  "legacy_bz2_md5": "a1e5cfe50c73da69b31c49c6bdc82b9a",
+  "legacy_bz2_size": 9390781,
+  "license": "GPL",
+  "md5": "09331930b68efb3b64e841fe4e797911",
+  "name": "gfortran_impl_linux-64",
+  "platform": "linux",
+  "sha256": "dc6e2eaac15f43adf74f74a2ebfe4bb850db2c551402adec2fa522b4e956c767",
+  "size": 8220284,
+  "subdir": "linux-64",
+  "timestamp": 1534866846414,
+  "track_features": "",
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/gfortran_impl_linux-64-7.3.0-hdf63c60_1.conda",
+  "version": "7.3.0"
+}

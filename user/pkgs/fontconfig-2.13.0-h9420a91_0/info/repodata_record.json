@@ -1,0 +1,30 @@
+{
+  "arch": "x86_64",
+  "build": "h9420a91_0",
+  "build_number": 0,
+  "channel": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "freetype >=2.9.1,<3.0a0",
+    "icu >=58.2,<59.0a0",
+    "libgcc-ng >=7.2.0",
+    "libpng >=1.6.34,<1.7.0a0",
+    "libuuid >=1.0.3,<2.0a0",
+    "libxml2 >=2.9.8,<2.10.0a0"
+  ],
+  "features": "",
+  "fn": "fontconfig-2.13.0-h9420a91_0.conda",
+  "legacy_bz2_md5": "3a0b2d9cec0fdb464b8d34946669250f",
+  "legacy_bz2_size": 297631,
+  "license": "MIT",
+  "md5": "e7f4d02e3204e867b6642753b6986b99",
+  "name": "fontconfig",
+  "platform": "linux",
+  "sha256": "ffe86ebaaefc301ebb5c79cbd278bbcdd0df0b895a909650c9e234cd32c44117",
+  "size": 232720,
+  "subdir": "linux-64",
+  "timestamp": 1527253867511,
+  "track_features": "",
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/fontconfig-2.13.0-h9420a91_0.conda",
+  "version": "2.13.0"
+}

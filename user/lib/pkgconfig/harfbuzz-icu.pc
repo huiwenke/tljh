@@ -1,0 +1,13 @@
+prefix=/opt/tljh/user
+exec_prefix=/opt/tljh/user
+libdir=/opt/tljh/user/lib
+includedir=/opt/tljh/user/include
+
+Name: harfbuzz
+Description: HarfBuzz text shaping library ICU integration
+Version: 1.8.8
+
+Requires: harfbuzz
+Requires.private: icu-uc
+Libs: -L${libdir} -lharfbuzz-icu
+Cflags: -I${includedir}/harfbuzz

@@ -1,0 +1,16 @@
+{
+  "arch": null,
+  "build": "r36h6115d3f_0",
+  "build_number": 0,
+  "depends": [
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "license": "Unlimited",
+  "license_family": "MIT",
+  "name": "r-boot",
+  "noarch": "generic",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1557936505656,
+  "version": "1.3_20"
+}

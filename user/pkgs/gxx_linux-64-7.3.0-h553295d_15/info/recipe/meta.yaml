@@ -1,0 +1,41 @@
+# This file created by conda-build 3.18.11
+# ------------------------------------------------
+
+package:
+    name: gxx_linux-64
+    version: 7.3.0
+source:
+    path: /tmp/build/80754af9/rsync-recipes/ctng-compiler-activation-7.3.0-on-linux_64
+build:
+    noarch: false
+    number: '15'
+    run_exports:
+        strong:
+            - libgcc-ng >=7.3.0
+            - libstdcxx-ng >=7.3.0
+    script: install-g++.sh
+    string: h553295d_15
+requirements:
+    run:
+        - binutils_linux-64 2.33.1 h9595d00_15
+        - gcc_linux-64 7.3.0 h553295d_15
+        - gxx_impl_linux-64 7.3.0.*
+test:
+    commands:
+        - ${CXX} ${CXXFLAGS} -Wall tests/aligned_alloc.cpp -o cpp_aligned
+        - ./cpp_aligned
+        - test -z "${CONDA_BUILD_SYSROOT+x}" && echo "CONDA_BUILD_SYSROOT is not set"
+            && exit 1
+        - test -d ${CONDA_BUILD_SYSROOT} || exit 1
+    files:
+        - tests
+about:
+    home: https://github.com/conda-forge/ctng-compiler-activation-feedstock
+    license: BSD-3-Clause
+    license_file: LICENSE
+    summary: GNU C++ Compiler (activation scripts)
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - isuruf

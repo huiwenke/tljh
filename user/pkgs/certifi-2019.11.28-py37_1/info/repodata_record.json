@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "py37_1",
+  "build_number": 1,
+  "channel": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "certifi-2019.11.28-py37_1.tar.bz2",
+  "license": "ISC",
+  "md5": "87a7d5e6dd0eed71c423b8d84f822c40",
+  "name": "certifi",
+  "platform": "linux",
+  "sha256": "3b0147281583ae0a0c6aeb6cab40159d070ff3b171c50c9c599db44e54d83001",
+  "size": 160251,
+  "subdir": "linux-64",
+  "timestamp": 1584971732458,
+  "track_features": "",
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/certifi-2019.11.28-py37_1.tar.bz2",
+  "version": "2019.11.28"
+}

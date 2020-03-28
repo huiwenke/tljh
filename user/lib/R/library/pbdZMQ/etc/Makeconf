@@ -1,0 +1,27 @@
+MY_MAKE = 'make'
+MY_CC = 'x86_64-conda_cos6-linux-gnu-cc'
+MY_CFLAGAS = '-march=nocona -mtune=haswell -ftree-vectorize -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -I/opt/tljh/user/include -fdebug-prefix-map=/tmp/build/80754af9/r-base_1570124924484/work=/usr/local/src/conda/r-base-3.6.1 -fdebug-prefix-map=/opt/tljh/user=/usr/local/src/conda-prefix '
+MY_LDFLAGAS = '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/opt/tljh/user/lib -Wl,-rpath-link,/opt/tljh/user/lib -L/opt/tljh/user/lib -Wl,-rpath-link,/opt/tljh/user/lib'
+MY_CPPFLAGAS = '-I/opt/tljh/user/lib/R/include -DNDEBUG -I./zmqsrc/include  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2  -I/opt/tljh/user/include -Wl,-rpath-link,/opt/tljh/user/lib'
+MY_CXX = 'x86_64-conda_cos6-linux-gnu-c++ -std=gnu++11'
+MY_CXXFLAGAS = '-fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -I/opt/tljh/user/include -fdebug-prefix-map=/tmp/build/80754af9/r-base_1570124924484/work=/usr/local/src/conda/r-base-3.6.1 -fdebug-prefix-map=/opt/tljh/user=/usr/local/src/conda-prefix '
+MY_POLLER = 'select'
+MY_ZMQ_DIR = '/tmp/RtmpYftSAl/R.INSTALL637c24072f84/pbdZMQ/src/zmqsrc'
+GET_PKG_CONFIG = no
+GET_SYSTEM_ZMQ = no
+PKG_CONFIG = 
+SYSTEM_ZMQ_INCLUDEDIR = 
+SYSTEM_ZMQ_LIBDIR = 
+ENABLE_INTERNAL_ZMQ = no
+INTERNAL_ZMQ_INCLUDEDIR = ./zmqsrc/include
+INTERNAL_ZMQ_LIBDIR = ./
+EXTERNAL_ZMQ_INCLUDE = 
+EXTERNAL_ZMQ_LDFLAGS = 
+ZMQ_INCLUDE = -I./zmqsrc/include
+ZMQ_LDFLAGS = -L./ -lzmq
+EXT_LIBS = libzmq.so
+ZMQ_POLLER = select
+PKG_CPPFLAGS = -I./zmqsrc/include
+PKG_CFLAGS = -I./zmqsrc/include
+PKG_CXXFLAGS = -I./zmqsrc/include
+PKG_LIBS = -L./ -lzmq

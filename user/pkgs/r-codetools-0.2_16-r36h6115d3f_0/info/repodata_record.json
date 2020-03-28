@@ -1,0 +1,25 @@
+{
+  "build": "r36h6115d3f_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "features": "",
+  "fn": "r-codetools-0.2_16-r36h6115d3f_0.tar.bz2",
+  "license": "GPL",
+  "license_family": "GPL",
+  "md5": "5310d4fb07c22587914dd5078739c036",
+  "name": "r-codetools",
+  "noarch": "generic",
+  "package_type": "noarch_generic",
+  "sha256": "80e3f97150632167503bec04fccc3983fbde7bce060ea3e6b7597e4ea24e3fa8",
+  "size": 109820,
+  "subdir": "noarch",
+  "timestamp": 1557941772813,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/noarch/r-codetools-0.2_16-r36h6115d3f_0.tar.bz2",
+  "version": "0.2_16"
+}

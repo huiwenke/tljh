@@ -1,0 +1,28 @@
+{
+  "arch": "x86_64",
+  "build": "r36h96ca727_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "r-base >=3.6,<3.7.0a0",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "features": "",
+  "fn": "r-foreign-0.8_71-r36h96ca727_0.conda",
+  "legacy_bz2_md5": "1724fe46dbc42aad590dee8943f702a6",
+  "legacy_bz2_size": 272211,
+  "license": "GPL (>= 2)",
+  "license_family": "GPL3",
+  "md5": "c6f10cd0a4bcc2b029a8d821f9067457",
+  "name": "r-foreign",
+  "platform": "linux",
+  "sha256": "5eb31bad38d7f3fd167f4d028dca7812fb278629548113c829261bff35b2347b",
+  "size": 252716,
+  "subdir": "linux-64",
+  "timestamp": 1558365964143,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/linux-64/r-foreign-0.8_71-r36h96ca727_0.conda",
+  "version": "0.8_71"
+}

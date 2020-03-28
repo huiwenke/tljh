@@ -1,0 +1,27 @@
+{% set version = "3.6.0" %}
+
+package:
+  name: r
+  version: {{ version }}
+
+build:
+  merge_build_host: True  # [win]
+  number: 0
+
+requirements:
+  build:
+    - r-base
+  run:
+    - r-base
+    - r-recommended {{ version }}
+
+about:
+  home: http://www.r-project.org/
+  license: GPL-3.0
+  summary: 'R is a free software environment for statistical computing and graphics.'
+
+extra:
+  recipe-maintainers:
+    - bgruening
+    - johanneskoester
+    - mingwandroid

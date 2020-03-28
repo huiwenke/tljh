@@ -1,0 +1,25 @@
+{
+  "build": "r36h6115d3f_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "features": "",
+  "fn": "r-boot-1.3_20-r36h6115d3f_0.tar.bz2",
+  "license": "Unlimited",
+  "license_family": "MIT",
+  "md5": "6774aec778886f2c786b1aa39b69a143",
+  "name": "r-boot",
+  "noarch": "generic",
+  "package_type": "noarch_generic",
+  "sha256": "62c294212fd3418aab9071382b5b1717a4014b097ed30bf2698a09ec1cb0ea3d",
+  "size": 714719,
+  "subdir": "noarch",
+  "timestamp": 1557936505656,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/noarch/r-boot-1.3_20-r36h6115d3f_0.tar.bz2",
+  "version": "1.3_20"
+}

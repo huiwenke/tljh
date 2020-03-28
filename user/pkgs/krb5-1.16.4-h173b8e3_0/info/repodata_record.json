@@ -1,0 +1,30 @@
+{
+  "arch": "x86_64",
+  "build": "h173b8e3_0",
+  "build_number": 0,
+  "channel": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libedit >=3.1.20181209,<3.2.0a0",
+    "libedit >=3.1.20181209,<4.0a0",
+    "libgcc-ng >=7.3.0",
+    "libstdcxx-ng >=7.3.0",
+    "openssl >=1.1.1d,<1.1.2a",
+    "tk >=8.6.8,<8.7.0a0"
+  ],
+  "features": "",
+  "fn": "krb5-1.16.4-h173b8e3_0.conda",
+  "legacy_bz2_md5": "e3cd8bd281f203260df543faddd2fdec",
+  "legacy_bz2_size": 1467600,
+  "license": "MIT",
+  "md5": "1dfa16eb997ebe71167392898d2d299a",
+  "name": "krb5",
+  "platform": "linux",
+  "sha256": "f782cfacb254d166a02c4ca12aab9d1e08c0cee16de969c0484f9622938145f6",
+  "size": 1294191,
+  "subdir": "linux-64",
+  "timestamp": 1576515758124,
+  "track_features": "",
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/krb5-1.16.4-h173b8e3_0.conda",
+  "version": "1.16.4"
+}

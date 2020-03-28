@@ -1,0 +1,13 @@
+prefix=/opt/tljh/user
+exec_prefix=/opt/tljh/user
+libdir=/opt/tljh/user/lib
+includedir=/opt/tljh/user/include
+
+Name: harfbuzz
+Description: HarfBuzz text shaping library
+Version: 1.8.8
+
+Libs: -L${libdir} -lharfbuzz
+Libs.private: -lm    
+Requires.private: glib-2.0 >= 2.19.1 graphite2
+Cflags: -I${includedir}/harfbuzz

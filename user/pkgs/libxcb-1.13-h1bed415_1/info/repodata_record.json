@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "h1bed415_1",
+  "build_number": 1,
+  "channel": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.2.0"
+  ],
+  "features": "",
+  "fn": "libxcb-1.13-h1bed415_1.conda",
+  "legacy_bz2_md5": "a30332027922e249a80c25faea2f3b34",
+  "legacy_bz2_size": 513561,
+  "md5": "e04bd9ad2cc33b55eafd738f2c5d102c",
+  "name": "libxcb",
+  "platform": "linux",
+  "sha256": "1c4e43f22b7977bb4fef1b22b140b7a882679d3f5263f9ad7d435c0a90bdbc95",
+  "size": 431577,
+  "subdir": "linux-64",
+  "timestamp": 1523637427898,
+  "track_features": "",
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/libxcb-1.13-h1bed415_1.conda",
+  "version": "1.13"
+}

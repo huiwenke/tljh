@@ -1,0 +1,17 @@
+{
+  "paths": [
+    {
+      "_path": "etc/conda/activate.d/activate-gfortran_linux-64.sh",
+      "path_type": "hardlink",
+      "sha256": "74598b2ae3988d63b7f7735465287f3a733e11aa3fffac4ff57b0a1665a308fc",
+      "size_in_bytes": 5286
+    },
+    {
+      "_path": "etc/conda/deactivate.d/deactivate-gfortran_linux-64.sh",
+      "path_type": "hardlink",
+      "sha256": "e3f63f0eaa05f222ff0e74c8d1bf9d714fc979c47204e86e74a66820b4c8eaa5",
+      "size_in_bytes": 5268
+    }
+  ],
+  "paths_version": 1
+}

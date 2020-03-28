@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "he6710b0_7",
+  "build_number": 7,
+  "channel": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "ld_impl_linux-64 2.33.1 h53a641e_7",
+    "libgcc-ng >=7.3.0",
+    "libstdcxx-ng >=7.3.0"
+  ],
+  "features": "",
+  "fn": "binutils_impl_linux-64-2.33.1-he6710b0_7.conda",
+  "legacy_bz2_md5": "81dc44b5d60cb7213dcd5e4d53332a9d",
+  "legacy_bz2_size": 9021505,
+  "license": "GPL 3",
+  "md5": "5391fac57187954a295288d895bc4ac8",
+  "name": "binutils_impl_linux-64",
+  "platform": "linux",
+  "sha256": "067739c2e85b86912dfe349d7e4f6c178ad4455a9a7a95a7352b69a1889c3991",
+  "size": 3832528,
+  "subdir": "linux-64",
+  "timestamp": 1576704272512,
+  "track_features": "",
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/binutils_impl_linux-64-2.33.1-he6710b0_7.conda",
+  "version": "2.33.1"
+}

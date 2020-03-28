@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "hdf63c60_1",
+  "build_number": 1,
+  "channel": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "gcc_impl_linux-64 7.3.0 habb00fd_1"
+  ],
+  "features": "",
+  "fn": "gxx_impl_linux-64-7.3.0-hdf63c60_1.conda",
+  "legacy_bz2_md5": "9641ec21fad5dac14cb13a26607cbac7",
+  "legacy_bz2_size": 19646193,
+  "license": "GPL",
+  "md5": "45e233ce123935461a36f32d6f6852aa",
+  "name": "gxx_impl_linux-64",
+  "platform": "linux",
+  "sha256": "5541f1eaf439c0d24841129c143cae4631e91870729d5c00ba57da88b7a149e6",
+  "size": 15724529,
+  "subdir": "linux-64",
+  "timestamp": 1534866887969,
+  "track_features": "",
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/gxx_impl_linux-64-7.3.0-hdf63c60_1.conda",
+  "version": "7.3.0"
+}

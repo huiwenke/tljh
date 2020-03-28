@@ -1,0 +1,29 @@
+{
+  "arch": "x86_64",
+  "build": "r36ha65eedd_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libgfortran-ng >=7,<8.0a0",
+    "r-base >=3.6,<3.7.0a0",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "features": "",
+  "fn": "r-cluster-2.0.8-r36ha65eedd_0.conda",
+  "legacy_bz2_md5": "de434c83885ba8ab54084f013b41e5dc",
+  "legacy_bz2_size": 563625,
+  "license": "GPL (>= 2)",
+  "license_family": "GPL3",
+  "md5": "0447d2cfe5ba2bc30e0a7ddfd2de0db9",
+  "name": "r-cluster",
+  "platform": "linux",
+  "sha256": "63e3f06a8102aa06750798505b21046856f0dd6b87fe303783a713ac4c0d51ed",
+  "size": 542483,
+  "subdir": "linux-64",
+  "timestamp": 1558094915300,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/linux-64/r-cluster-2.0.8-r36ha65eedd_0.conda",
+  "version": "2.0.8"
+}

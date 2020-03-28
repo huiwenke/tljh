@@ -1,0 +1,5 @@
+{
+  "cran_mirror": "https://cran.r-project.org",
+  "c_compiler": "gcc",
+  "fortran_compiler": "gfortran"
+}

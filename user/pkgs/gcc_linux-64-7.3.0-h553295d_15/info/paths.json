@@ -1,0 +1,17 @@
+{
+  "paths": [
+    {
+      "_path": "etc/conda/activate.d/activate-gcc_linux-64.sh",
+      "path_type": "hardlink",
+      "sha256": "5a65bbc0a1f12deb7f4641c7751e8dd3925afa2d9ed514eb0452026bd5d136a4",
+      "size_in_bytes": 7950
+    },
+    {
+      "_path": "etc/conda/deactivate.d/deactivate-gcc_linux-64.sh",
+      "path_type": "hardlink",
+      "sha256": "3b6bf7a7877968d6d83028ba741a74f605ad97a8e2fbdb775dce0fc882a4744a",
+      "size_in_bytes": 5809
+    }
+  ],
+  "paths_version": 1
+}

@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "hdf63c60_1",
+  "build_number": 1,
+  "depends": [
+    "gcc_impl_linux-64 7.3.0 habb00fd_1"
+  ],
+  "license": "GPL",
+  "name": "gxx_impl_linux-64",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1534866887969,
+  "version": "7.3.0"
+}

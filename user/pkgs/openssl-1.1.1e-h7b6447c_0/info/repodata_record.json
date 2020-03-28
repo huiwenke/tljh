@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "h7b6447c_0",
+  "build_number": 0,
+  "channel": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "ca-certificates",
+    "libgcc-ng >=7.3.0"
+  ],
+  "features": "",
+  "fn": "openssl-1.1.1e-h7b6447c_0.conda",
+  "legacy_bz2_md5": "0792eb4906c7487134835feca10bd76a",
+  "legacy_bz2_size": 3972430,
+  "license": "OpenSSL",
+  "license_family": "Apache",
+  "md5": "710bbe87575fa7d130c9fdc24eec18ae",
+  "name": "openssl",
+  "platform": "linux",
+  "sha256": "b2717a277430b405149a8695bfc8a9e799d8488bfe765dec409c6b04c9ac6b1d",
+  "size": 2652893,
+  "subdir": "linux-64",
+  "timestamp": 1584465134548,
+  "track_features": "",
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/openssl-1.1.1e-h7b6447c_0.conda",
+  "version": "1.1.1e"
+}

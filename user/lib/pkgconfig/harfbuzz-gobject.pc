@@ -1,0 +1,12 @@
+prefix=/opt/tljh/user
+exec_prefix=/opt/tljh/user
+libdir=/opt/tljh/user/lib
+includedir=/opt/tljh/user/include
+
+Name: harfbuzz
+Description: HarfBuzz text shaping library GObject integration
+Version: 1.8.8
+
+Requires: harfbuzz gobject-2.0 glib-2.0
+Libs: -L${libdir} -lharfbuzz-gobject
+Cflags: -I${includedir}/harfbuzz

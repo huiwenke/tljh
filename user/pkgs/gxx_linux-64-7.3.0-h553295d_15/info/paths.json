@@ -1,0 +1,17 @@
+{
+  "paths": [
+    {
+      "_path": "etc/conda/activate.d/activate-gxx_linux-64.sh",
+      "path_type": "hardlink",
+      "sha256": "917de42c192dc839ec8cf95bf361ec756a85b4276eec7e66c985560f73d41585",
+      "size_in_bytes": 4931
+    },
+    {
+      "_path": "etc/conda/deactivate.d/deactivate-gxx_linux-64.sh",
+      "path_type": "hardlink",
+      "sha256": "cbdfe3636afe1daa2ff60ca38b8c92efa2e8b87f4ab54d9122181a9bbb913d4a",
+      "size_in_bytes": 4933
+    }
+  ],
+  "paths_version": 1
+}

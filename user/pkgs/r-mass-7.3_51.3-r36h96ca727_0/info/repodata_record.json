@@ -1,0 +1,28 @@
+{
+  "arch": "x86_64",
+  "build": "r36h96ca727_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "r-base >=3.6,<3.7.0a0",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "features": "",
+  "fn": "r-mass-7.3_51.3-r36h96ca727_0.conda",
+  "legacy_bz2_md5": "3e25e9bd15d633ed60c1db7bddd731f4",
+  "legacy_bz2_size": 1163264,
+  "license": "GPL-2 | GPL-3",
+  "license_family": "GPL3",
+  "md5": "78791ee42037e542c05a797d444ddcf7",
+  "name": "r-mass",
+  "platform": "linux",
+  "sha256": "6ec88da50412c7b764bcbe7dc9e260a746bd46a5f50e94be260181880f34c5ec",
+  "size": 1121445,
+  "subdir": "linux-64",
+  "timestamp": 1558085456952,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/linux-64/r-mass-7.3_51.3-r36h96ca727_0.conda",
+  "version": "7.3_51.3"
+}

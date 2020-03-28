@@ -1,0 +1,12 @@
+{
+  "libpng": "1.6",
+  "pixman": "0.34",
+  "c_compiler": "gcc",
+  "xz": "5",
+  "cxx_compiler": "gxx",
+  "fontconfig": "2.13",
+  "glib": "2.56",
+  "freetype": "2.9",
+  "zlib": "1.2",
+  "icu": "58"
+}

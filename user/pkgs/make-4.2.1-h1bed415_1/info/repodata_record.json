@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "h1bed415_1",
+  "build_number": 1,
+  "channel": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.2.0"
+  ],
+  "features": "",
+  "fn": "make-4.2.1-h1bed415_1.conda",
+  "legacy_bz2_md5": "274e1eb00ae0a8c18557a5ce7e015e1b",
+  "legacy_bz2_size": 439087,
+  "license": "GPLv3",
+  "md5": "11e034d2d79bfed958791f1fdeb4adcf",
+  "name": "make",
+  "platform": "linux",
+  "sha256": "366c7133c9b595f5862ef22b0af952e74550e8eeded4b18ea5eb35f8c2ba01a1",
+  "size": 425182,
+  "subdir": "linux-64",
+  "timestamp": 1522868610272,
+  "track_features": "",
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/make-4.2.1-h1bed415_1.conda",
+  "version": "4.2.1"
+}

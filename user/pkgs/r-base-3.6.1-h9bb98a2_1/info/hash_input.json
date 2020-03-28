@@ -1,0 +1,7 @@
+{
+  "libopenblas": "0.3.3",
+  "cxx_compiler": "gxx",
+  "fortran_compiler": "gfortran",
+  "c_compiler": "gcc",
+  "libcurl": "7.62"
+}

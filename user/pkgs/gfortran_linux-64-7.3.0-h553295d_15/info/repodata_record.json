@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "h553295d_15",
+  "build_number": 15,
+  "channel": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "binutils_linux-64 2.33.1 h9595d00_15",
+    "gcc_linux-64 7.3.0 h553295d_15",
+    "gfortran_impl_linux-64 7.3.0.*"
+  ],
+  "features": "",
+  "fn": "gfortran_linux-64-7.3.0-h553295d_15.conda",
+  "legacy_bz2_md5": "9da10d196a928c75260cd103dda59ba0",
+  "legacy_bz2_size": 25104,
+  "license": "BSD-3-Clause",
+  "md5": "f669abe9a3730773b9125c9ad2b99ac8",
+  "name": "gfortran_linux-64",
+  "platform": "linux",
+  "sha256": "dee34c0fd391a1020708134b254e785f6564c2dd8b6f534718067693561938e8",
+  "size": 27188,
+  "subdir": "linux-64",
+  "timestamp": 1576707756158,
+  "track_features": "",
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/gfortran_linux-64-7.3.0-h553295d_15.conda",
+  "version": "7.3.0"
+}

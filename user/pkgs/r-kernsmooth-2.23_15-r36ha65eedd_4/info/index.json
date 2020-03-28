@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "r36ha65eedd_4",
+  "build_number": 4,
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libgfortran-ng >=7,<8.0a0",
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "license": "Unlimited",
+  "license_family": "MIT",
+  "name": "r-kernsmooth",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1558366271450,
+  "version": "2.23_15"
+}

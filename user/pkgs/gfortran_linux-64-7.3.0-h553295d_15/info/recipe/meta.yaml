@@ -1,0 +1,43 @@
+# This file created by conda-build 3.18.11
+# ------------------------------------------------
+
+package:
+    name: gfortran_linux-64
+    version: 7.3.0
+source:
+    path: /tmp/build/80754af9/rsync-recipes/ctng-compiler-activation-7.3.0-on-linux_64
+build:
+    noarch: false
+    number: '15'
+    run_exports:
+        strong:
+            - libgcc-ng >=7.3.0
+            - libgfortran-ng >=7,<8.0a0
+    script: install-gfortran.sh
+    string: h553295d_15
+requirements:
+    host:
+        - libgfortran-ng 7.3.0 hdf63c60_0
+    run:
+        - binutils_linux-64 2.33.1 h9595d00_15
+        - gcc_linux-64 7.3.0 h553295d_15
+        - gfortran_impl_linux-64 7.3.0.*
+test:
+    commands:
+        - pushd tests/fortomp
+        - sh test_fort.sh
+    files:
+        - tests/fortomp/*
+    requires:
+        - cmake >=3.11
+        - make
+about:
+    home: https://github.com/conda-forge/ctng-compiler-activation-feedstock
+    license: BSD-3-Clause
+    license_file: LICENSE
+    summary: GNU Fortran Compiler (activation scripts)
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - isuruf

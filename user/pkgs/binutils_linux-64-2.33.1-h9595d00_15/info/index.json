@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "h9595d00_15",
+  "build_number": 15,
+  "depends": [
+    "binutils_impl_linux-64 2.33.1.*"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "binutils_linux-64",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1576707744942,
+  "version": "2.33.1"
+}

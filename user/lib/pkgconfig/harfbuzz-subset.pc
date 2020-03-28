@@ -1,0 +1,12 @@
+prefix=/opt/tljh/user
+exec_prefix=/opt/tljh/user
+libdir=/opt/tljh/user/lib
+includedir=/opt/tljh/user/include
+
+Name: harfbuzz
+Description: HarfBuzz font subsetter
+Version: 1.8.8
+
+Requires: harfbuzz
+Libs: -L${libdir} -lharfbuzz-subset
+Cflags: -I${includedir}/harfbuzz

@@ -1,0 +1,29 @@
+{
+  "arch": "x86_64",
+  "build": "r36_0",
+  "build_number": 0,
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "r-boot",
+    "r-class",
+    "r-cluster",
+    "r-codetools",
+    "r-foreign",
+    "r-kernsmooth",
+    "r-lattice",
+    "r-mass",
+    "r-matrix",
+    "r-mgcv",
+    "r-nlme",
+    "r-nnet",
+    "r-rpart",
+    "r-spatial",
+    "r-survival"
+  ],
+  "license": "GPL-3.0",
+  "name": "r-recommended",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1558451346818,
+  "version": "3.6.0"
+}

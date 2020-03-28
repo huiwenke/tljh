@@ -1,0 +1,71 @@
+{% set name = "harfbuzz" %}
+{% set version = "1.8.8" %}
+{% set sha256 = "a8e5c86e4d99e1cc9865ec1b8e9b05b98e413c2a885cd11f8e9bb9502dd3e3a9" %}
+
+package:
+  name: {{ name }}
+  version: {{ version }}
+
+source:
+  url: https://www.freedesktop.org/software/{{ name }}/release/{{ name }}-{{ version }}.tar.bz2
+  sha256: {{ sha256 }}
+
+build:
+  number: 0
+  skip: True  # [win]
+  run_exports:
+    # removes symbols rarely (last time in 2014).
+    #    https://abi-laboratory.pro/tracker/timeline/harfbuzz/
+    - {{ pin_subpackage('harfbuzz') }}
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+    - {{ cdt('libxau-devel') }}          # [linux]
+    - {{ cdt('libxext-devel') }}         # [linux]
+    - {{ cdt('libx11-devel') }}          # [linux]
+    - {{ cdt('libxrender-devel') }}      # [linux]
+    - make
+    - automake
+    - libtool
+    - pkg-config
+    - gobject-introspection >=1.51,<2.0a0
+  host:
+    - freetype
+    - glib
+    - icu
+    - cairo
+    - graphite2
+    - libxcb                             # [linux]
+
+test:
+  commands:
+    # Libraries/headers.
+    {% set libs = [
+        "libharfbuzz-icu",
+        "libharfbuzz"
+        ] %}
+    {% for lib in libs %}
+    - test -f $PREFIX/lib/{{ lib }}.dylib  # [osx]
+    - test -f $PREFIX/lib/{{ lib }}.so  # [linux]
+    {% endfor %}
+    - test -f $PREFIX/include/harfbuzz/hb-ft.h  # [not win]
+    # CLI tests.
+    - hb-view --version  # [linux]
+
+about:
+  home: http://www.freedesktop.org/wiki/Software/HarfBuzz/
+  license: MIT
+  license_file: COPYING
+  summary: 'An OpenType text shaping engine.'
+  description: |
+    HarfBuzz is a text shaping library. New Harbuzz targets various font
+    technologies while Old HarfBuzz targets only OpenType fonts.
+  doc_url: https://www.freedesktop.org/wiki/Software/HarfBuzz/
+  dev_url: https://github.com/behdad/harfbuzz
+
+extra:
+  recipe-maintainers:
+    - ocefpaf
+    - pkgw

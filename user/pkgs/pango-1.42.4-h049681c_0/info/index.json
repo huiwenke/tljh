@@ -1,0 +1,30 @@
+{
+  "arch": "x86_64",
+  "build": "h049681c_0",
+  "build_number": 0,
+  "depends": [
+    "cairo >=1.14.12,<2.0a0",
+    "fontconfig >=2.13.0,<3.0a0",
+    "freetype >=2.9.1,<3.0a0",
+    "fribidi >=1.0.4,<2.0a0",
+    "glib >=2.56.1,<2.57.0a0",
+    "graphite2 >=1.3.12,<2.0a0",
+    "harfbuzz >=1.7.6,<2.0a0",
+    "icu >=58.2,<59.0a0",
+    "libffi >=3.2.1,<4.0a0",
+    "libgcc-ng >=7.3.0",
+    "libpng >=1.6.34,<1.7.0a0",
+    "libuuid >=1.0.3,<2.0a0",
+    "libxml2 >=2.9.8,<2.10.0a0",
+    "pcre >=8.42,<9.0a0",
+    "pixman >=0.34.0,<1.0a0",
+    "xz >=5.2.4,<6.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "license": "LGPL-2.1",
+  "name": "pango",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1535469857531,
+  "version": "1.42.4"
+}

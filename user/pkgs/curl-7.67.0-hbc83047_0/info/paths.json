@@ -1,0 +1,11 @@
+{
+  "paths": [
+    {
+      "_path": "bin/curl",
+      "path_type": "hardlink",
+      "sha256": "c198f178f36900206306e60323351c0d49f9f883f41bad00c362a76b9195e573",
+      "size_in_bytes": 246096
+    }
+  ],
+  "paths_version": 1
+}

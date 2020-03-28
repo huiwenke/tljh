@@ -1,0 +1,37 @@
+# This file created by conda-build 3.15.1
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/bwidget-1.9.11-on-linux_64, last modified Wed Sep 26 21:22:11 2018
+# ------------------------------------------------
+
+package:
+    name: bwidget
+    version: 1.9.11
+source:
+    sha256: 448a1db08a4ca477ce339dfe592fd85c4c0649c3ff554fb4e86d6826d39bc8b9
+    url: https://downloads.sourceforge.net/project/tcllib/BWidget/1.9.11/bwidget-1.9.11.tar.gz
+build:
+    number: '1'
+    script:
+        - rm -Rf .fslckout ChangeLog tests demo BWman
+        - '[[ ! -d $PREFIX/lib/tcl8.6/bwidget ]] || exit 1'
+        - mkdir -p $PREFIX/lib/tcl8.6/bwidget
+        - mv * $PREFIX/lib/tcl8.6/bwidget/
+    string: '1'
+requirements:
+    run:
+        - tk
+test:
+    commands:
+        - echo "if {[catch {package require -exact BWidget 1.9.11; exit 0}]} {exit
+            1}" | xvfb-run tclsh
+about:
+    doc_url: http://tcllib.sourceforge.net/BWman/
+    home: http://www.tcl.tk/
+    license: Tcl/Tk
+    license_family: BSD
+    summary: Simple Widgets for Tcl/Tk.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - mingwandroid

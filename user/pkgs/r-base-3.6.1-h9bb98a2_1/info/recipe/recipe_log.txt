@@ -1,0 +1,1010 @@
+commit 7ed0d267b6ef9dc60146caae9b209e92c4d48849
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Thu Oct 3 12:43:01 2019 -0500
+
+    add openblas and lapack-netlib licenses
+    
+    closes #1
+
+commit 38cb6b8a119273dfd84e059753e69f59f147be5a
+Author: Kai Tietz <ktietz@anaconda.com>
+Date:   Tue Jul 30 14:46:25 2019 +0200
+
+    Remove lapack and sed dependency for linux
+
+commit 92a8ce84abad402a20fb22af84cb152d76d0a16a
+Author: Kai Tietz <ktietz@anaconda.com>
+Date:   Tue Jul 30 12:57:21 2019 +0200
+
+    Branch 3.6.1
+
+commit 0b9e722c146cbd767de07e9f944f65bc2b6fa7e6
+Author: Kai Tietz <ktietz@anaconda.com>
+Date:   Wed May 8 09:19:04 2019 +0200
+
+    Renamed .so to existing .dylib
+
+commit 37bf416b6ddd3060fee33c00039c769b4f8ec223
+Author: Kai Tietz <ktietz@anaconda.com>
+Date:   Tue May 7 21:49:44 2019 +0200
+
+    Fix missing 'fi'
+
+commit fa514913cf1b93441cca44738c9e0edf4d314d87
+Author: Kai Tietz <ktietz@anaconda.com>
+Date:   Fri May 3 15:54:41 2019 +0200
+
+    Added required host dependencies to build for Windows
+
+commit 101fcd93ff9385e732c0d8e373825275161ca8bc
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Apr 27 00:39:30 2019 +0100
+
+    Update to 3.6.0 (WIP)
+
+commit 78e64bb09b2da783403e339785b37f0bd9037a57
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Apr 5 17:23:59 2019 +0200
+
+    Update to 3.5.3, add m2-patch dep
+
+commit 02c8e89b14b063c9539489e7dbb20fcf426822b7
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed Mar 6 22:55:37 2019 -0600
+
+    Bump verstion to 3.5.2
+    
+    - Rebase patches
+    - Update MIKTEX_VER to 2.9.6942
+    - Try to partially fix https://github.com/conda-forge/r-base-feedstock/issues/67
+
+commit e3427b90a6f5bcbb3703667546448216e8b2789d
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed Mar 6 21:55:02 2019 -0600
+
+    Revert "Workaround conda-build bug not recognizing {{native}}"
+    
+    This reverts commit fe75546fe803de7edfb203726062440d95d83ed9.
+
+commit 59a1e1ea944cb9cc4f983c455a764c7973442eec
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Dec 8 15:41:55 2018 -0600
+
+    [ci skip] [skip ci] Add @jdblischak to maintainers
+
+commit 6b9210b3e84d476251eb950a329a3140f98ea4df
+Merge: 95d4514 9e8bdde
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Dec 8 01:59:03 2018 -0600
+
+    Merge pull request #63 from isuruf/strip
+    
+    strip dylibs
+
+commit 9e8bddea391b50f8afb5a403ab99eceeafd6cb11
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Dec 8 01:24:46 2018 -0600
+
+    Bump build number
+
+commit 3c10eaf213713c9fcb7d2b252a57160f7b173586
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Dec 8 01:08:34 2018 -0600
+
+    strip dylibs
+
+commit 95d45140cf768bf81c528698eb68619419670398
+Merge: d508e67 4306df2
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Mon Nov 12 16:07:41 2018 -0500
+
+    Merge pull request #61 from mingwandroid/master
+    
+    Let's see how this goes.
+
+commit 4306df2bccd0fca841f59b2a8238378c173fa6d5
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Sun Nov 11 09:30:33 2018 -0500
+
+    Reintroduce RSTUDIO_WHICH_R preservation in activate
+
+commit f0c631fc6cd475218b36ddaa0917597db9ea1366
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Nov 10 13:52:33 2018 -0600
+
+    Keep the linter happy
+
+commit abbc7213258c776c955f2dbb786f37c2daea12e0
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Nov 10 13:51:12 2018 -0600
+
+    Fix jinja
+
+commit 41be7be5fb1ab8ba935a3e1dce3b9702aa676319
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Nov 10 13:50:47 2018 -0600
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.11.9
+
+commit 9c0ce41618e8d8182535d8417a7a74d00246f287
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Nov 10 13:49:04 2018 -0600
+
+    Pin to msys2-conda-epoch
+
+commit fd1ef65428f0b79f758647b91cf3468d8da34f7d
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Nov 10 12:50:54 2018 -0600
+
+    Remove duplicated build until conda/conda-build#3255 is resovled
+
+commit bb55009fa156a1b4a44ab3899c99615c98ef9f31
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Nov 10 12:50:03 2018 -0600
+
+    libgfortran is added by compiler
+
+commit e96cbd69a59bbc5ed7619c6b9027542ce61a0989
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Nov 10 12:37:47 2018 -0600
+
+    Bump build number
+
+commit fe75546fe803de7edfb203726062440d95d83ed9
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Nov 10 12:37:08 2018 -0600
+
+    Workaround conda-build bug not recognizing {{native}}
+
+commit ee525a49ac9593701eba9b5144bde954b610d07c
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Nov 10 00:31:49 2018 -0600
+
+    Bump build #
+
+commit 63995f7f91bcdca92eecf0a5fe76cd5d9166a708
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Nov 9 23:54:30 2018 -0600
+
+    libopenblas => openblas (avoid defaults)
+
+commit dfccec4f6c6ec6a8193c2041f7f66d761e600f23
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Nov 9 23:30:15 2018 -0600
+
+    Do not depend upon libgfortran when using new compilers (run_exports add libgfortran-ng)
+
+commit 4de8757c4a16ddfc84c0ab14eba51fb9a58705b4
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Nov 9 22:48:51 2018 -0600
+
+    Support old toolchain which doesn't set INSTALL_NAME_TOOL
+
+commit 5e556d3d47fddda1a1365c588c9270d2ba4b56a9
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Nov 9 12:04:06 2018 -0600
+
+    Sync
+
+commit 76f6bb9e4e6be5ebc38935115543113829531492
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Thu Nov 8 16:56:50 2018 -0500
+
+    try to fix libiconv and libcurl issue
+
+commit 6678a3beb4d3fd8736dc59e170feab6874db3d1b
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Thu Nov 8 16:25:43 2018 -0500
+
+    added bzip2 dep
+
+commit d1b086a8ced213326316ba908c1ff48d690a5cfb
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Thu Nov 8 15:41:29 2018 -0500
+
+    get rid of weird blas hacks
+
+commit 97321ff4c1b5ee29b3c1d6af9c33074ae802bd6c
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Thu Nov 8 15:32:48 2018 -0500
+
+    try to fix copy
+
+commit 1724a5c25add28e638cc309bd4c49d50de27b32e
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Thu Nov 8 14:01:18 2018 -0500
+
+    darwin updates
+
+commit dd83a73035d1c72629155e46f4dbd598cd094c9a
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Thu Nov 8 13:53:44 2018 -0500
+
+    Revert "Re-arrange Windows R layout to be the same as Unix"
+    
+    This reverts commit bc057ae433473e9e670c378417d5138f8773fdb2.
+
+commit bc057ae433473e9e670c378417d5138f8773fdb2
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Dec 29 14:32:13 2017 +0000
+
+    Re-arrange Windows R layout to be the same as Unix
+    
+    This is so that we can share noarch packages directly.
+
+commit dec953eb3a7715eb5c88bba870ba72b64271c0c6
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Wed Nov 7 11:35:48 2018 -0500
+
+    platform specific linking
+
+commit 3dca792008f79ebbc736e7f8a893366eb15c1747
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Wed Nov 7 08:27:05 2018 -0500
+
+    Add more logging in the case of OSX configure failures
+
+commit 223cc13673b423c54365107a73c4de1f6a43492f
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Tue Nov 6 16:44:08 2018 -0500
+
+    link fixes
+
+commit 020100dced74e60c3c9388065f79ec4fd9a18269
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Tue Nov 6 16:12:11 2018 -0500
+
+    fix exported variables
+
+commit bc2eba08d32471d2dbac61e3bcbff764b2505612
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Tue Nov 6 15:44:19 2018 -0500
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.11.3
+
+commit 4d74fb86eb978a2ad84f5be71a8bad250680b593
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Tue Nov 6 15:43:56 2018 -0500
+
+    seems to need C++ on new compilers on linux
+
+commit 11f07962bd0475358aae9bec91b9c1b9fa3278c5
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Tue Nov 6 15:08:27 2018 -0500
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.11.3
+
+commit 4427622b7505743881792ed911fc4739b04d7b5c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Oct 13 11:57:35 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.11
+
+commit 5bfdcad706d9106b7fefc56f26e6b1a5301c0c52
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Oct 13 11:57:29 2018 +0000
+
+    bump build number
+
+commit d508e67b99d796e6db75ffdf4566888aae9e25f8
+Merge: 2a9819f 169df91
+Author: Björn Grüning <bjoern@gruenings.eu>
+Date:   Sat Sep 29 10:40:20 2018 +0200
+
+    Merge pull request #59 from halldc/rstudio-env
+    
+    conda activate sets RSTUDIO_WHICH_R
+
+commit 169df918df48ebd7bef7a6c64dbf302f6ac133f4
+Author: David Hall <david.hall@ookla.com>
+Date:   Fri Sep 28 09:28:02 2018 -0700
+
+    Restore pre-existing RSTUDIO_WHICH_R
+
+commit 6b81c0f7d1fa0e44311e833e7f7e3a8875224b55
+Author: David Hall <david.hall@ookla.com>
+Date:   Wed Aug 29 10:36:21 2018 -0700
+
+    conda activate sets RSTUDIO_WHICH_R
+
+commit 2a9819ff2c06910bf11f6fa1dd1cb9afad264f98
+Merge: 67174b9 5893ead
+Author: Björn Grüning <bjoern@gruenings.eu>
+Date:   Sun Aug 5 23:10:42 2018 +0200
+
+    Merge pull request #56 from dpryan79/version_3.5.1
+    
+    Version 3.5.1
+
+commit 5893ead2a32355c731bdecf66399a0ab0eed99dd
+Merge: c271b9d 67174b9
+Author: Devon Ryan <dpryan79@users.noreply.github.com>
+Date:   Sun Aug 5 14:59:03 2018 +0200
+
+    Merge branch 'master' into version_3.5.1
+
+commit c271b9d7d93595b25083ae47302e0d408b467421
+Author: Devon Ryan <dpryan79@gmail.com>
+Date:   Sun Aug 5 14:20:11 2018 +0200
+
+    Fix the LD_LIBRARY_PATH so the tests work
+
+commit 67174b9ee545c4604a15c24044ecd00519052f1f
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 19:10:53 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 958576678261c4d4618c4c1802fd98bb9d5949c8
+Merge: cf16869 13acd83
+Author: Björn Grüning <bjoern@gruenings.eu>
+Date:   Fri Aug 3 13:55:44 2018 +0200
+
+    Merge pull request #54 from bgruening/master
+    
+    add two new tests
+
+commit 13acd837fc2c8d7fbba847f8ad47fe9f122faf2c
+Merge: 70d9466 cf16869
+Author: Björn Grüning <bjoern@gruenings.eu>
+Date:   Fri Aug 3 00:14:15 2018 +0200
+
+    Merge branch 'master' into master
+
+commit 70d94664bbe2a87dbee2a16374f1cb79ca0d0c39
+Author: Bjoern Gruening <bjoern.gruening@gmail.com>
+Date:   Fri Aug 3 00:11:02 2018 +0200
+
+    MNT: Re-rendered with conda-smithy 3.1.10 and pinning 2018.07.24
+
+commit 3f1af8f0cb0fe55f09e43de6102c9e7094c11cac
+Author: Bjoern Gruening <bjoern.gruening@gmail.com>
+Date:   Fri Aug 3 00:03:19 2018 +0200
+
+    add two new tests
+
+commit dfe520b36c0cd33357ca61e7bf772014b5b74295
+Author: Devon Ryan <dpryan79@gmail.com>
+Date:   Tue Jul 31 11:04:42 2018 +0200
+
+    There's a library path issue on Linux
+
+commit 57ae6cbf6399f8c0bdb3ba17793256fd49c7c48d
+Author: Devon Ryan <dpryan79@gmail.com>
+Date:   Tue Jul 31 01:23:47 2018 +0200
+
+    Move to Rscript test
+
+commit 492eea6924dc95f1170547c170e4046d4c238a6a
+Author: Devon Ryan <dpryan79@gmail.com>
+Date:   Tue Jul 31 00:31:45 2018 +0200
+
+    Set LIBRARY_PATH
+
+commit b5432a07ebc69fff0ba30bc8641cbeb092b93ed7
+Author: Devon Ryan <dpryan79@gmail.com>
+Date:   Tue Jul 31 00:30:08 2018 +0200
+
+    forgot to add test file
+
+commit d4c5fe524ab62159ae1b9369cf64f443af1a4e01
+Author: Devon Ryan <dpryan79@gmail.com>
+Date:   Tue Jul 31 00:11:56 2018 +0200
+
+    Check capabilities
+
+commit dd8a2ce445e0cc9816c63883644f0823148af8ad
+Author: Devon Ryan <dpryan79@gmail.com>
+Date:   Mon Jul 30 23:51:41 2018 +0200
+
+    Update patches
+
+commit cf16869dde892b671c633108266d422501969191
+Merge: 6cea114 b5060d7
+Author: Johannes Köster <johannes.koester@tu-dortmund.de>
+Date:   Thu Jul 26 16:23:29 2018 +0200
+
+    Merge pull request #53 from johanneskoester/cairo-fix
+    
+    Add test case for creating SVG file.
+
+commit b5060d7f38484e815f38b3deb09718563f1a8698
+Author: Johannes Köster <johannes.koester@tu-dortmund.de>
+Date:   Thu Jul 26 13:37:43 2018 +0200
+
+    Disable SVG test on win.
+
+commit d57a704bf922362a7d6a630968705d182aa63013
+Author: Johannes Köster <johannes.koester@tu-dortmund.de>
+Date:   Thu Jul 26 08:40:35 2018 +0200
+
+    use xorg dependencies only on linux
+
+commit 21d027acccc036def671ec4b7a692cf923a63e29
+Merge: 4920eb9 93d8dd9
+Author: Johannes Köster <johannes.koester@tu-dortmund.de>
+Date:   Thu Jul 26 08:22:15 2018 +0200
+
+    Merge branch 'cairo-fix' of github.com:johanneskoester/r-base-feedstock into cairo-fix
+
+commit 4920eb97ac572867c4dfb95ad7f7e5c560cdb926
+Author: Johannes Köster <johannes.koester@tu-dortmund.de>
+Date:   Thu Jul 26 08:21:40 2018 +0200
+
+    Add xorg dependencies.
+
+commit 93d8dd9c9bd30172fd3ab22e8e354924f8ebce7a
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Jul 26 01:40:59 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.8 and pinning 2018.07.24
+
+commit 30ff8b0eaf09d14339b7262830ecd66d6a9ecca3
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Jul 25 19:40:00 2018 -0600
+
+    Rename yum_requirements.txt to yum_requirements.txt.bak
+
+commit 359bcb4696f69e73812453eace4b98bb05dc08b0
+Author: Johannes Köster <johannes.koester@tu-dortmund.de>
+Date:   Wed Jul 25 21:33:03 2018 +0200
+
+    Remove yum requirements.
+
+commit 823a7e02d59b5ade0be9eacb74efa42d8408941f
+Author: Johannes Köster <johannes.koester@tu-dortmund.de>
+Date:   Wed Jul 25 20:20:50 2018 +0200
+
+    Remove the overwrite that directed pkg-config to search the system paths.
+    
+    Cairo is now included as a proper conda depencency and should be taken from there.
+
+commit dfbcd5b40a914b5b28717ab36b893733eb12b4bf
+Author: Johannes Köster <johannes.koester@tu-dortmund.de>
+Date:   Wed Jul 25 20:17:15 2018 +0200
+
+    bump build number
+
+commit 5d85fff4969ac8b5b152792782591ca281734a36
+Author: Johannes Köster <johannes.koester@tu-dortmund.de>
+Date:   Wed Jul 25 20:15:30 2018 +0200
+
+    Add test case for creating SVG file.
+
+commit 6cea1145bfa7044d6bf4ce3e0e0053337a567deb
+Merge: 3c4fa05 16c16b0
+Author: Björn Grüning <bjoern@gruenings.eu>
+Date:   Mon Jul 23 23:54:51 2018 +0200
+
+    Merge pull request #52 from bgruening/master
+    
+    fix miktex URL
+
+commit 16c16b0feb1c199676aafed11e8943b7c62d068c
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon Jul 23 19:37:14 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.07.20
+
+commit 60ab70c22258165738bf93d463ba7ca936b9c19b
+Author: Bjoern Gruening <bjoern.gruening@gmail.com>
+Date:   Mon Jul 23 21:35:04 2018 +0200
+
+    increase build bumber
+
+commit 0715907739c91b0c878068ad249d0fbd4bb9e3f8
+Author: Bjoern Gruening <bjoern.gruening@gmail.com>
+Date:   Mon Jul 23 21:34:27 2018 +0200
+
+    change miktex URL
+
+commit 3c4fa05251188513036149e03368c906a2b83d2e
+Merge: 2546fc3 b0f2f74
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sat Jul 21 07:51:10 2018 -0300
+
+    Merge pull request #51 from bgruening/trigger
+    
+    trigger rebuild
+
+commit b0f2f74fea68776ef06319d897cbfc7e9e3f5344
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Jul 11 18:58:44 2018 -0600
+
+    Add isuruf to maintainer
+
+commit 108ba29d9bebe83ca7b99191b7efe7bdf8c4f325
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Jul 11 18:43:57 2018 -0600
+
+    Update miktex url
+
+commit 22e572f359beaf40b3624878932b6b90e7039adf
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Jul 11 18:43:08 2018 -0600
+
+    remove inspect
+
+commit d39185d462e159640dc441e65a8fadb5e6b0030e
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Jul 11 18:42:55 2018 -0600
+
+    Add libraries used in internet.so
+
+commit b90080fe46192073aef33cc72fe0036d8db5d5a7
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Jul 11 18:34:18 2018 -0600
+
+    Update dependencies for cb3's used_variables to work
+
+commit 6e8652e5f89625613fec6917afcf81cf3e9218db
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Jul 11 07:17:32 2018 -0600
+
+    Merge build and host in win
+
+commit 96de39c18438d0ea47d62ec3092e9cfa12d5fde7
+Author: Björn Grüning <bjoern@gruenings.eu>
+Date:   Wed Jul 11 15:15:41 2018 +0200
+
+    Update meta.yaml
+
+commit 6268dfc2aa9dd8f95ce7eb42bb43926fce07ca82
+Author: Bjoern Gruening <bjoern.gruening@gmail.com>
+Date:   Tue Jul 10 19:56:47 2018 +0200
+
+    trigger rebuild
+
+commit 2546fc32f4c4bb62082417e7a268595b90c25e9c
+Merge: 7e1dd00 90ee325
+Author: Björn Grüning <bjoern@gruenings.eu>
+Date:   Mon Jul 2 09:56:28 2018 +0200
+
+    Merge pull request #47 from regro-cf-autotick-bot/compiler_migration2
+    
+    Migrate to Jinja2 compiler syntax
+
+commit 90ee3258bee02e91fad9fbb5fba3b249d250ef67
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jul 1 17:59:57 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.06.29
+
+commit fa565410a6de3e0e71bfdd6d114778d4b66afe00
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Jul 1 17:59:50 2018 +0000
+
+    migrated to Jinja2 compiler syntax build
+
+commit 7e1dd00fade2eb79596d6fcf660436b66d0642bb
+Merge: 503b38d e651e9e
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Jun 19 14:58:18 2018 -0300
+
+    Merge pull request #44 from jdblischak/miktex
+    
+    Update URL to download MiKTeX executable for Windows build.
+
+commit e651e9e50a242ad1aa9ec43ba680ac90253de090
+Author: John Blischak <jdblischak@gmail.com>
+Date:   Tue Jun 19 12:55:55 2018 -0400
+
+    Fix Jinja2 variable definitions to pass linting.
+    
+    {%<one space>set<one space><variable name><one space>=<one space><expression><one space>%}
+
+commit 2aceb0eb4f27f1cce7a66bdb91901ade2e2270b6
+Author: John Blischak <jdblischak@gmail.com>
+Date:   Tue Jun 19 12:13:55 2018 -0400
+
+    Bump to build number 4.
+
+commit bf9725096c9fce56efe4e0141e8ce10dd2852e74
+Author: John Blischak <jdblischak@gmail.com>
+Date:   Tue Jun 19 10:40:52 2018 -0400
+
+    Update URL to download MiKTeX executable for Windows build.
+
+commit 503b38d45c5f1616bd6677d131f96f6d1eac39da
+Merge: 5b1d417 3c13bfc
+Author: Björn Grüning <bjoern@gruenings.eu>
+Date:   Tue Mar 20 09:10:03 2018 +0100
+
+    Merge pull request #38 from jakirkham-feedstocks/merge_3.3.2_into_master
+    
+    Merge 3.3.2 into master
+
+commit 3c13bfc44f4677accb9e6677f1bcd22eaa7021e1
+Merge: 309c536 5b1d417
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Wed Mar 14 14:16:39 2018 -0400
+
+    Merge branch 'conda-forge/3.3.2' into 'conda-forge/master'
+    
+    [ci skip]
+
+commit 5b1d41769dae50a9bed507ebb4ef7989fabf01a4
+Merge: ed368f4 b989aca
+Author: Björn Grüning <bjoern@gruenings.eu>
+Date:   Wed Mar 14 12:06:03 2018 +0100
+
+    Merge pull request #39 from jakirkham-feedstocks/re-render_master_2.4.5
+    
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit b989acad46bbde2fbff49f1b51204e4626f021de
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Mar 13 22:50:26 2018 -0400
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit 309c5366b348ddda6b06bcb62cc3f44faa217606
+Merge: c9b69ad b328501
+Author: Björn Grüning <bjoern@gruenings.eu>
+Date:   Fri Dec 22 20:30:42 2017 +0100
+
+    Merge pull request #29 from jdblischak/3.3.2-appveyor
+    
+    Try another AppVeyor hack.
+
+commit b328501fc75f6efa4ffac68cdb567fd8550bdf52
+Author: John Blischak <jdblischak@gmail.com>
+Date:   Fri Dec 22 12:44:13 2017 -0500
+
+    update -> install
+
+commit 7f6a0bb175d349814445d07a0780fa62ed66a8dd
+Author: John Blischak <jdblischak@gmail.com>
+Date:   Fri Dec 22 11:48:50 2017 -0500
+
+    Try another AppVeyor hack.
+
+commit c9b69ad42878742807982fcf82e90374b10e9301
+Merge: 2b74277 07c46f4
+Author: Björn Grüning <bjoern@gruenings.eu>
+Date:   Fri Dec 22 13:35:38 2017 +0100
+
+    Merge pull request #28 from jdblischak/3.3.2-update-pins
+    
+    Update R 3.3.2 pins to match 3.4.1.
+
+commit 07c46f4b7168e9036236d12254896903a6eb4c3a
+Author: John Blischak <jdblischak@gmail.com>
+Date:   Fri Dec 22 06:58:27 2017 -0500
+
+    Temporarily fix conda error for AppVeyor build.
+
+commit 5c6666a6ed7e332d7bc2d9d92b479101dff41d88
+Author: John Blischak <jdblischak@gmail.com>
+Date:   Thu Dec 21 21:15:34 2017 -0500
+
+    Backport bugfix for zlib version check to R 3.3.2.
+    
+    https://bugs.r-project.org/bugzilla/show_bug.cgi?id=17204
+    https://github.com/wch/r-source/commit/a0fe05ce9d0937ad2334bb370785cb22c71e592b
+
+commit 57376be163a3ba905d4e670bb4ebe0928147312b
+Author: Björn Grüning <bjoern@gruenings.eu>
+Date:   Thu Dec 21 10:32:46 2017 +0100
+
+    linting fixes
+
+commit 133e0e9153cdb18da6895a34e97f15bb162e98b7
+Author: John Blischak <jdblischak@gmail.com>
+Date:   Wed Dec 20 22:32:11 2017 -0500
+
+    Update R 3.3.2 pins to match 3.4.1.
+
+commit ed368f40fa1d86764af2caca1ddee2e4cf238892
+Merge: 34354fc 9cb729e
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Dec 20 09:25:47 2017 -0200
+
+    Merge pull request #27 from ocefpaf/update_pins
+    
+    update r-base and pins
+
+commit 9cb729e14b0f98224ad59d5e9f6929254f8d4a62
+Author: Björn Grüning <bjoern@gruenings.eu>
+Date:   Tue Dec 19 23:43:01 2017 +0100
+
+    bump build number to 3
+
+commit ac705a313e5d5544aa8f948cd77ad9bb40dda5a9
+Author: Björn Grüning <bjoern@gruenings.eu>
+Date:   Tue Dec 19 22:11:31 2017 +0100
+
+    lets pin the old R3.4.1 version
+
+commit 6db5a8c9246bccc86ff5e16b21a2d38aa48a33f9
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Tue Dec 12 14:42:29 2017 -0200
+
+    libtiff win
+
+commit 333246acb7fa10fcd3229e22d5a554e3d7ad9733
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Tue Dec 12 13:09:55 2017 -0200
+
+    update r-base and pins
+
+commit 34354fc9d9828943f56aff807efc475169d0b9fe
+Merge: 46f5989 8854d87
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Nov 15 07:46:37 2017 -0200
+
+    Merge pull request #24 from ocefpaf/update_pins
+    
+    update pins
+
+commit 8854d874d4da9680cab0cb42344096fdf58724b3
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Tue Nov 14 17:31:42 2017 -0200
+
+    update pins
+
+commit 2b742775c63f552b531a4d60f185a10e1adb4b8d
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Nov 13 15:14:01 2017 -0200
+
+    3.3.2 branch
+
+commit 46f5989f6d1b2c399a9c83d98cd75b9d3d645b98
+Merge: 38ba7ee 2e6a28b
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Nov 7 07:43:24 2017 -0200
+
+    Merge pull request #23 from ocefpaf/update_pins
+    
+    Update pins
+
+commit 2e6a28b7bc0a42e0cebd1ec47fff48ad662b650c
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Nov 6 15:54:38 2017 -0200
+
+    update pins
+
+commit 0ece7f8396674494bde7a84d4c4fcd799d9bcf7d
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Nov 6 15:54:36 2017 -0200
+
+    rerender
+
+commit 38ba7ee0a7606f81ef646ca3be084d690ae4edbb
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon Aug 14 11:48:00 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit f53becc43997a2bb74f506a4c8fdc9e35bd222e5
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun Aug 13 21:23:31 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 234499669bdfd605665aa7f36b7905c07d579b02
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun Aug 13 20:33:10 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 00a3a12e38a3f131aa931ab0d58253a2b70d8789
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun Aug 13 19:49:55 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 56d682bda4669da9e06d717442832182cbf4b5e1
+Merge: 0e0b592 b11aae7
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Aug 13 14:32:42 2017 -0300
+
+    Merge pull request #21 from bgruening/3.4.1
+    
+    r-base 3.4.1 update
+
+commit b11aae76ecc55df9932402ec92206cd2663149d9
+Author: Bjoern Gruening <bjoern.gruening@gmail.com>
+Date:   Sun Aug 13 18:20:30 2017 +0200
+
+    trying to fix tex failures for OSX
+
+commit 21a6dc57460a398c6f8c1a97052a79faad4cb9ba
+Author: Bjoern Gruening <bjoern.gruening@gmail.com>
+Date:   Sat Aug 12 22:01:14 2017 +0200
+
+    adding missing libpng for windows
+
+commit 4ab61508f104469fd369ce8af510fadbeaa0d39f
+Author: Bjoern Gruening <bjoern.gruening@gmail.com>
+Date:   Sat Aug 12 20:24:01 2017 +0200
+
+    fix tk pinning
+
+commit 17f16cb232e2d69727cd9fa1dddddb9bee66d590
+Author: Bjoern Gruening <bjoern.gruening@gmail.com>
+Date:   Sat Aug 12 19:41:15 2017 +0200
+
+    lint fixes
+
+commit cfbdc7cf92989c3a6e06516101097730203d2398
+Author: Bjoern Gruening <bjoern.gruening@gmail.com>
+Date:   Sat Aug 12 19:36:04 2017 +0200
+
+    fix wrong pinning for win
+
+commit c417a43b4d5648048add12d1add3980a80f3880f
+Author: Bjoern Gruening <bjoern.gruening@gmail.com>
+Date:   Sat Aug 12 19:34:11 2017 +0200
+
+    style fix
+
+commit 1f0559620a614e3a8ab9d11b656f695a0ea3888c
+Author: Bjoern Gruening <bjoern.gruening@gmail.com>
+Date:   Sat Aug 12 19:30:59 2017 +0200
+
+    add yum requirements back
+
+commit 67ed597506cfb2b79f3a7e6d970a4cebf0b944d4
+Author: Bjoern Gruening <bjoern.gruening@gmail.com>
+Date:   Sat Aug 12 19:30:08 2017 +0200
+
+    adopt pinning
+
+commit fc0751e75f87a571aa9e37ff3c8ac58cc75b5327
+Author: Bjoern Gruening <bjoern.gruening@gmail.com>
+Date:   Sat Aug 12 19:17:34 2017 +0200
+
+    sync with the default r-base recipe
+
+commit 0e0b5927ba79712ebaf90b2826be515468d37c7c
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 12 20:50:30 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit aeb16501a6b9dfbd2b4264b8080f98f9df0ce5ef
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 12 20:22:51 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 0129e2a7f5a63c846904af73dce0de09db3580a1
+Merge: 71a3524 fd86815
+Author: Johannes Köster <johannes.koester@tu-dortmund.de>
+Date:   Thu Apr 27 10:00:23 2017 +0200
+
+    Merge pull request #14 from sodre/master
+    
+    Fix r-base and openjdk integration
+
+commit fd86815a7a552a6555463242286c1c1a7b04e209
+Author: Patrick Sodré <sodre@sodre.co>
+Date:   Wed Apr 26 01:32:56 2017 +0000
+
+    Proposed fix for rJava
+    
+     - Test R CMD javareconf
+     - Disable javareconf test for windows
+    
+    needs openjdk as test req
+
+commit 71a352414104c7ec062477436067b999f22468a4
+Merge: 5af07eb 95aa84d
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon Feb 20 22:56:18 2017 -0500
+
+    Merge pull request #11 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 95aa84df0b7b450f55b745142f3041b6118b0d00
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Feb 21 01:43:36 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.1.0.
+
+commit 5af07eba31eba780a27e3cd29c737e9da135cc4d
+Merge: 2790a10 14fc3c6
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Feb 17 11:32:28 2017 -0300
+
+    Merge pull request #10 from ocefpaf/include
+    
+    Add miktex so the makefile can finish.
+
+commit 14fc3c6db0b633807fb5aa776c6277e960999f12
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Fri Feb 17 05:13:24 2017 -0300
+
+    Add miktex so the makefile can finish.
+
+commit 2790a109c3158e9b58c3931b13dbef40f2e69ed9
+Merge: 85cf972 c90450c
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Feb 12 16:30:27 2017 -0500
+
+    Merge pull request #8 from jakirkham/re-render_master_2.0.1
+    
+    MNT: Re-rendered with conda-smithy 2.0.1
+
+commit c90450c4f868caa39092b99e741652429a7b2c42
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Feb 12 16:01:56 2017 -0500
+
+    MNT: Re-rendered with conda-smithy 2.0.1
+
+commit 85cf972115d57572d5cf84608ada5c22f40d4cfa
+Merge: 13ee758 4b75878
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Feb 2 05:48:24 2017 -0300
+
+    Merge pull request #6 from ocefpaf/update_icu_pin
+    
+    Update ICU pin
+
+commit 4b75878dda1ba5db950b42b51ebdf89fc5628668
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Wed Feb 1 13:23:24 2017 -0300
+
+    Update ICU pin
+
+commit 13ee75813978c152bca344d7d46c79749bde071e
+Merge: b5737ee 2c48e1f
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Jan 26 06:50:06 2017 -0300
+
+    Merge pull request #5 from ocefpaf/cf_consistent_pkg
+    
+    Add pinnings that are consistent with conda-forge
+
+commit 2c48e1fa150f0e757625fa0afdb8c5b3bbfbb055
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Jan 24 19:38:20 2017 -0300
+
+    No win32
+
+commit eb951ec69358293b36330afc79627c2645fc92b9
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Jan 24 18:10:14 2017 -0300
+
+    Try to comply with conda-forge pinnings.
+
+commit 1fc57d5deb7bb9374bae0d456b6c90b4e8d4095b
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Jan 24 16:47:22 2017 -0300
+
+    rerender with auto
+
+commit b5737eeb0f55f85620b7a78aabda3be82366a387
+Merge: e78bdd4 139a834
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sat Dec 24 16:42:55 2016 -0300
+
+    Merge pull request #1 from jjhelmus/long_prefix
+    
+    Build long prefix package using conda-build 2.x
+
+commit 139a834646d3aac0b096eeaf7517290fae421c78
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Sat Dec 24 12:52:47 2016 -0600
+
+    Empty commit for CircleCI
+
+commit 44ef66796decee6702076ebb58c4014fa3708a9d
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Sat Dec 24 12:50:33 2016 -0600
+
+    Build long prefix package using conda-build 2.x
+
+commit e78bdd4e3f7275c55dd5e3c41b0cb018505d4819
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Dec 17 17:13:54 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit ad861e80e206c41b1f76237067329b93d201493c
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Dec 17 17:09:22 2016 +0000
+
+    Initial feedstock commit with conda-smithy 1.7.0.

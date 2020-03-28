@@ -1,0 +1,43 @@
+# This file created by conda-build 3.13.0
+# ------------------------------------------------
+
+package:
+    name: gfortran_impl_linux-64
+    version: 7.3.0
+source:
+    path: .
+build:
+    binary_relocation:
+        - bin/*
+        - lib/*.so
+        - libexec/**/*.so*
+        - libexec/**/f951
+    detect_binary_files_with_prefix: false
+    missing_dso_whitelist:
+        - '*'
+    number: 1
+    string: hdf63c60_1
+requirements:
+    build:
+        - gcc_impl_linux-64 7.3.0 habb00fd_1
+    run:
+        - gcc_impl_linux-64 7.3.0 habb00fd_1
+        - libgcc-ng >=7.3.0
+        - libgfortran-ng >=7.3.0,<8.0a0
+test:
+    commands:
+        - find $PREFIX/lib -iname omp_lib.mod | grep '.'
+        - find $PREFIX/lib -iname omp_lib.h | grep '.'
+        - pushd tests/fortomp
+        - sh test_fort.sh
+    files:
+        - tests/fortomp/*
+    requires:
+        - cmake >=3.11
+about:
+    home: https://gcc.gnu.org/
+    license: GPL
+    summary: GNU Fortran Compiler
+extra:
+    copy_test_source_files: true
+    final: true

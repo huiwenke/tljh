@@ -1,0 +1,2 @@
+#!/bin/sh
+/opt/tljh/user/bin/x86_64-conda_cos6-linux-gnu-gfortran.bin -specs=/opt/tljh/user/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/specs "$@"

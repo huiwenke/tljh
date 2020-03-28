@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "h7b6447c_0",
+  "build_number": 0,
+  "channel": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0"
+  ],
+  "features": "",
+  "fn": "pixman-0.38.0-h7b6447c_0.conda",
+  "legacy_bz2_md5": "6978159e1f1d00fec8e86612370af212",
+  "legacy_bz2_size": 632614,
+  "license": "MIT",
+  "md5": "7a603e29563e7c3eb184afaf28dd000d",
+  "name": "pixman",
+  "platform": "linux",
+  "sha256": "e9bea5425bd9a12c190c8b31ebdb907eca87d81af0e634dc3bcc544fe5373a83",
+  "size": 373125,
+  "subdir": "linux-64",
+  "timestamp": 1552420972972,
+  "track_features": "",
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/pixman-0.38.0-h7b6447c_0.conda",
+  "version": "0.38.0"
+}

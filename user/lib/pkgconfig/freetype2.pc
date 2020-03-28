@@ -1,0 +1,14 @@
+prefix=/opt/tljh/user
+exec_prefix=/opt/tljh/user
+libdir=/opt/tljh/user/lib
+includedir=/opt/tljh/user/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 22.1.16
+Requires:
+Requires.private: 
+Libs: -L${libdir} -lfreetype
+Libs.private: -lz -L/opt/tljh/user/lib -lpng16 -lm -lz -lm
+Cflags: -I${includedir}/freetype2

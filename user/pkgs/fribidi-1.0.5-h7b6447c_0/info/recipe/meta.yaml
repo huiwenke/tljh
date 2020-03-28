@@ -1,0 +1,70 @@
+# This file created by conda-build 3.13.0
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/fribidi-1.0.5-on-linux_64, last modified Tue Aug 28 14:28:39 2018
+# ------------------------------------------------
+
+package:
+    name: fribidi
+    version: 1.0.5
+source:
+    sha256: 6a64f2a687f5c4f203a46fa659f43dd43d1f8b845df8d723107e8a7e6158e4ce
+    url: https://github.com/fribidi/fribidi/releases/download/v1.0.5/fribidi-1.0.5.tar.bz2
+build:
+    number: '0'
+    run_exports:
+        - fribidi >=1.0.5,<2.0a0
+    string: h7b6447c_0
+requirements:
+    build:
+        - binutils_impl_linux-64 2.31.1 h6176602_1
+        - binutils_linux-64 2.31.1 h6176602_3
+        - ca-certificates 2018.03.07 0
+        - gcc_impl_linux-64 7.3.0 habb00fd_1
+        - gcc_linux-64 7.3.0 h553295d_3
+        - libedit 3.1.20170329 h6b74fdf_2
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 8.2.0 hdf63c60_1
+        - libstdcxx-ng 8.2.0 hdf63c60_1
+        - meson 0.47.2 py37_0
+        - ncurses 6.1 hf484d3e_0
+        - ninja 1.8.2 py37h6bb024c_1
+        - openssl 1.0.2p h14c3975_0
+        - python 3.7.0 hc3d631a_0
+        - readline 7.0 h7b6447c_5
+        - sqlite 3.24.0 h84994c4_0
+        - tk 8.6.8 hbc83047_0
+        - xz 5.2.4 h14c3975_4
+        - zlib 1.2.11 ha838bed_2
+    host:
+        - libgcc-ng 8.2.0 hdf63c60_1
+    run:
+        - libgcc-ng >=7.3.0
+test:
+    commands:
+        - conda inspect linkages -p $PREFIX $PKG_NAME
+        - fribidi -h
+about:
+    description: 'One of the missing links stopping the penetration of free software
+        in Middle
+
+        East is the lack of support for the Arabic and Hebrew alphabets. In order
+        to
+
+        have proper Arabic and Hebrew support, the bidi algorithm needs to be
+
+        implemented. It is our hope that this library will stimulate more free
+
+        software in the Middle Eastern countries.
+
+        '
+    dev_url: https://github.com/fribidi/fribidi
+    doc_url: https://github.com/fribidi/fribidi
+    home: https://github.com/fribidi/fribidi
+    license: LGPL-2.1
+    license_file: COPYING
+    summary: The Free Implementation of the Unicode Bidirectional Algorithm.
+extra:
+    copy_test_source_files: true
+    final: true
+    package-maintainers:
+        - msarahan

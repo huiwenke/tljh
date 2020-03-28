@@ -1,0 +1,114 @@
+# This file created by conda-build 3.13.0
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/pango-1.42.4-on-linux_64, last modified Tue Aug 28 15:05:42 2018
+# ------------------------------------------------
+
+package:
+    name: pango
+    version: 1.42.4
+source:
+    sha256: 1d2b74cd63e8bd41961f2f8d952355aa0f9be6002b52c8aa7699d9f5da597c9d
+    url: http://ftp.gnome.org/pub/GNOME/sources/pango/1.42/pango-1.42.4.tar.xz
+build:
+    number: '0'
+    run_exports:
+        - pango >=1.42.4,<2.0a0
+    string: h049681c_0
+requirements:
+    build:
+        - binutils_impl_linux-64 2.31.1 h6176602_1
+        - binutils_linux-64 2.31.1 h6176602_3
+        - gcc_impl_linux-64 7.3.0 habb00fd_1
+        - gcc_linux-64 7.3.0 h553295d_3
+        - libgcc-ng 8.2.0 hdf63c60_1
+        - libstdcxx-ng 8.2.0 hdf63c60_1
+        - libx11-common-cos6-x86_64 1.6.4 h023ea50_0
+        - libx11-cos6-x86_64 1.6.4 h64a1553_0
+        - libx11-devel-cos6-x86_64 1.6.4 hb9851ce_0
+        - libxau-cos6-x86_64 1.0.6 h4888106_0
+        - libxau-devel-cos6-x86_64 1.0.6 hf5ff492_0
+        - libxcb-cos6-x86_64 1.12 h6fd0490_0
+        - libxext-cos6-x86_64 1.3.3 hc47956f_0
+        - libxext-devel-cos6-x86_64 1.3.3 hf6a4bb0_0
+        - libxrender-cos6-x86_64 0.9.10 h41db5cd_0
+        - libxrender-devel-cos6-x86_64 0.9.10 ha8151bf_0
+        - make 4.2.1 h1bed415_1
+    host:
+        - ca-certificates 2018.03.07 0
+        - cairo 1.14.12 h8948797_3
+        - fontconfig 2.13.0 h9420a91_0
+        - freetype 2.9.1 h8a8886c_0
+        - fribidi 1.0.4 h14c3975_0
+        - glib 2.56.1 h000015b_0
+        - gobject-introspection 1.56.1 py37hbc4ca2d_2
+        - graphite2 1.3.12 h23475e2_2
+        - harfbuzz 1.7.6 hec2c2bc_3
+        - icu 58.2 h9c2bf20_1
+        - libedit 3.1.20170329 h6b74fdf_2
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 8.2.0 hdf63c60_1
+        - libpng 1.6.34 hb9fc6fc_0
+        - libstdcxx-ng 8.2.0 hdf63c60_1
+        - libuuid 1.0.3 h1bed415_2
+        - libxcb 1.13 h1bed415_1
+        - libxml2 2.9.8 h26e45fe_1
+        - ncurses 6.1 hf484d3e_0
+        - openssl 1.0.2p h14c3975_0
+        - pcre 8.42 h439df22_0
+        - perl 5.26.2 h14c3975_0
+        - pixman 0.34.0 hceecf20_3
+        - pkg-config 0.29.2 h1bed415_8
+        - python 3.7.0 hc3d631a_0
+        - readline 7.0 ha6073c6_4
+        - sqlite 3.24.0 h84994c4_0
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.4 h14c3975_4
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - cairo >=1.14.12,<2.0a0
+        - fontconfig >=2.13.0,<3.0a0
+        - freetype >=2.9.1,<3.0a0
+        - fribidi >=1.0.4,<2.0a0
+        - glib >=2.56.1,<2.57.0a0
+        - graphite2 >=1.3.12,<2.0a0
+        - harfbuzz >=1.7.6,<2.0a0
+        - icu >=58.2,<59.0a0
+        - libffi >=3.2.1,<4.0a0
+        - libgcc-ng >=7.3.0
+        - libpng >=1.6.34,<1.7.0a0
+        - libuuid >=1.0.3,<2.0a0
+        - libxml2 >=2.9.8,<2.10.0a0
+        - pcre >=8.42,<9.0a0
+        - pixman >=0.34.0,<1.0a0
+        - xz >=5.2.4,<6.0a0
+        - zlib >=1.2.11,<1.3.0a0
+test:
+    commands:
+        - pango-view --help
+about:
+    description: 'Pango is a library for laying out and rendering of text, with an
+        emphasis
+
+        on internationalization. Pango can be used anywhere that text layout is
+
+        needed, though most of the work on Pango so far has been done in the
+
+        context of the GTK+ widget toolkit. Pango forms the core of text and font
+
+        handling for GTK+-2.x.
+
+        '
+    dev_url: https://github.com/phuang/pango
+    doc_url: http://www.pango.org/
+    home: http://www.pango.org/
+    license: LGPL-2.1
+    license_file: COPYING
+    summary: Text layout and rendering engine.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ccordoba12
+        - jakirkham
+        - ocefpaf
+        - pkgw

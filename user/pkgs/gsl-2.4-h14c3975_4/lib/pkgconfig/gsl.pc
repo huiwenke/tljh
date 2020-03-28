@@ -1,0 +1,11 @@
+prefix=/opt/anaconda1anaconda2anaconda3
+exec_prefix=/opt/anaconda1anaconda2anaconda3
+libdir=/opt/anaconda1anaconda2anaconda3/lib
+includedir=/opt/anaconda1anaconda2anaconda3/include
+GSL_CBLAS_LIB=-lgslcblas
+
+Name: GSL
+Description: GNU Scientific Library
+Version: 2.4
+Libs: -L/opt/anaconda1anaconda2anaconda3/lib -lgsl ${GSL_CBLAS_LIB} -lm -lm 
+Cflags: -I/opt/anaconda1anaconda2anaconda3/include

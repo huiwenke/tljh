@@ -1,0 +1,8 @@
+{
+  "cxx_compiler_version": "7.3.0",
+  "zlib": "1.2",
+  "c_compiler_version": "7.3.0",
+  "cxx_compiler": "gxx",
+  "libffi": "3.2",
+  "c_compiler": "gcc"
+}

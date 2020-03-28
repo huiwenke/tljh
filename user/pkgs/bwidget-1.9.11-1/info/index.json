@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "1",
+  "build_number": 1,
+  "depends": [
+    "tk"
+  ],
+  "license": "Tcl/Tk",
+  "license_family": "BSD",
+  "name": "bwidget",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1537997223350,
+  "version": "1.9.11"
+}

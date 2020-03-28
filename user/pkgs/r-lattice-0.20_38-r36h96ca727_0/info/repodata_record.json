@@ -1,0 +1,28 @@
+{
+  "arch": "x86_64",
+  "build": "r36h96ca727_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "r-base >=3.6,<3.7.0a0",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "features": "",
+  "fn": "r-lattice-0.20_38-r36h96ca727_0.conda",
+  "legacy_bz2_md5": "bc657e36cb2e40d8e2c8b91a68442940",
+  "legacy_bz2_size": 1180612,
+  "license": "GPL (>= 2)",
+  "license_family": "GPL3",
+  "md5": "0f6adcb365da03462a7c91766428b405",
+  "name": "r-lattice",
+  "platform": "linux",
+  "sha256": "2d13102ebbb42b61afd195fa812fc9ab713457bb11da4a82858c116c223ef259",
+  "size": 1129758,
+  "subdir": "linux-64",
+  "timestamp": 1558085646108,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/linux-64/r-lattice-0.20_38-r36h96ca727_0.conda",
+  "version": "0.20_38"
+}

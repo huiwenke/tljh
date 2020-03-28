@@ -1,0 +1,38 @@
+# This file created by conda-build 3.13.0
+# ------------------------------------------------
+
+package:
+    name: gxx_impl_linux-64
+    version: 7.3.0
+source:
+    path: .
+build:
+    binary_relocation:
+        - bin/*
+        - lib/*.so
+        - libexec/**/*.so*
+        - libexec/**/cc1*
+    detect_binary_files_with_prefix: false
+    missing_dso_whitelist:
+        - '*'
+    number: 1
+    string: hdf63c60_1
+requirements:
+    build:
+        - gcc_impl_linux-64 7.3.0 habb00fd_1
+    run:
+        - gcc_impl_linux-64 7.3.0 habb00fd_1
+test:
+    commands:
+        - CXX=$(${PREFIX}/bin/*-gcc -dumpmachine)-g++
+        - ${CXX} -Wall tests/aligned_alloc.cpp -o cpp_aligned --std=c++17
+        - ./cpp_aligned
+    files:
+        - tests
+about:
+    home: https://gcc.gnu.org/
+    license: GPL
+    summary: GNU C++ Compiler
+extra:
+    copy_test_source_files: true
+    final: true

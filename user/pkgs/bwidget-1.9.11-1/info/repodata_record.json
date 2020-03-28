@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "1",
+  "build_number": 1,
+  "channel": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "tk"
+  ],
+  "features": "",
+  "fn": "bwidget-1.9.11-1.conda",
+  "legacy_bz2_md5": "b2558ad07e6960062429366daaaf53ca",
+  "legacy_bz2_size": 115322,
+  "license": "Tcl/Tk",
+  "license_family": "BSD",
+  "md5": "476c833c6e38d0b59cd4b7484686c600",
+  "name": "bwidget",
+  "platform": "linux",
+  "sha256": "88f4af44f9918f33d13ac799a4ea8f84bddc1f7db3f99c9e396f5f6c1094ec65",
+  "size": 118460,
+  "subdir": "linux-64",
+  "timestamp": 1537997223350,
+  "track_features": "",
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/bwidget-1.9.11-1.conda",
+  "version": "1.9.11"
+}

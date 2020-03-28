@@ -1,0 +1,2 @@
+etc/conda/activate.d/activate-gfortran_linux-64.sh
+etc/conda/deactivate.d/deactivate-gfortran_linux-64.sh

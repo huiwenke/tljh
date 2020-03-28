@@ -1,0 +1,2 @@
+etc/conda/activate.d/activate-gxx_linux-64.sh
+etc/conda/deactivate.d/deactivate-gxx_linux-64.sh

@@ -1,0 +1,30 @@
+{
+  "arch": "x86_64",
+  "build": "r36ha65eedd_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libgfortran-ng >=7,<8.0a0",
+    "r-base >=3.6,<3.7.0a0",
+    "r-lattice",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "features": "",
+  "fn": "r-nlme-3.1_139-r36ha65eedd_0.conda",
+  "legacy_bz2_md5": "b4e77cc6120c1f24da4b5c1a972998bb",
+  "legacy_bz2_size": 2352270,
+  "license": "GPL (>= 2) | file LICENCE",
+  "license_family": "GPL3",
+  "md5": "551edebf1c05b8bda009f6f942cf5d7e",
+  "name": "r-nlme",
+  "platform": "linux",
+  "sha256": "8dde5271f2ff3c9ceeb024fd0cb555c726e39672a974243b53e0b568cfc14c7a",
+  "size": 2266739,
+  "subdir": "linux-64",
+  "timestamp": 1558437928954,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/linux-64/r-nlme-3.1_139-r36ha65eedd_0.conda",
+  "version": "3.1_139"
+}
